@@ -30,4 +30,26 @@ export class GistController {
     const users = await this.gistService.loadUsers(true);
     res.json(users);
   }
+
+  async addUser(req: Request, res: Response): Promise<void> {
+    const { username } = req.body || {};
+
+    console.log("reg body:", req.body)
+    logger.info(`Received request to add user: username=${username}`);
+
+    if (!username) {
+      logger.error('Username is required');
+      res.status(400).send('Username is required');
+      return;
+    }
+
+    try {
+      await this.gistService.addUser(username);
+      logger.info(`User ${username} added successfully`);
+      res.status(201).send(`User ${username} added successfully`);
+    } catch (error) {
+      logger.error(`Failed to add user: ${error instanceof Error ? error.message : String(error)}`);
+      res.status(500).send(`Failed to add user: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    }
+  }
 }

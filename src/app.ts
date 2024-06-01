@@ -8,6 +8,7 @@ import { GistController } from './controllers/gistController';
 import { APP_PORT } from './config';
 
 const app = express();
+app.use(express.json());
 
 initializeDatabase()
   .then(() => {
@@ -24,6 +25,7 @@ initializeDatabase()
     app.get('/fetch-gists', (req, res) => gistController.fetchGists(req, res));
     app.get('/new-gists', (req, res) => gistController.getNewGists(req, res));
     app.get('/scanned-users', (req, res) => gistController.getScannedUsers(req, res));
+    app.post('/add-user', (req, res) => gistController.addUser(req, res));
 
     app.listen(APP_PORT, () => {
       logger.info(`Server is running on port ${APP_PORT}`);

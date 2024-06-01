@@ -115,4 +115,25 @@ export class GistService {
 
     return await this.gistRepository.readUsers();
   }
+
+
+  async addUser(username: string): Promise<void> {
+    try {
+      const userExists = await this.gistRepository.getUserIds([username]);
+      if (userExists.length > 0) {
+        logger.info(`User ${username} already exists`);
+        throw new Error(`User ${username} already exists`);
+      }
+
+      await this.gistRepository.createUser(username);
+      logger.info(`Successfully added user ${username}`);
+    } catch (error) {
+      if (error instanceof Error) {
+        logger.error(`Failed to add user ${username}: ${error.message}`);
+      } else {
+        logger.error(`Failed to add user ${username}: ${String(error)}`);
+      }
+      throw error;
+    }
+  }
 }

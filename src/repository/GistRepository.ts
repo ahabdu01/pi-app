@@ -130,4 +130,19 @@ export class GistRepository {
         throw error;
     }
   }
+
+  async createUser(username: string) {
+    try {
+      const result = await this.pool.query(
+        'INSERT INTO users (username) VALUES ($1) ON CONFLICT (id) DO NOTHING RETURNING id',
+        [username]
+      );
+      if (result.rows.length > 0) {
+        logger.info(`Adding new user ${username} to the database`);
+      }
+    } catch (error) {
+      logger.error(`Failed to create new user ${username} in the database`, error);
+      throw error;
+    }
+  }
 }
