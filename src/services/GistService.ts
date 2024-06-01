@@ -4,22 +4,26 @@ import logger from '../utils/logger';
 import { createPipedriveDeal } from './PipedriveService';
 import { GITHUB_USERNAME, GITHUB_TOKEN } from '../config';
 import { GistRepository } from '../repository/GistRepository';
+import { UserService } from './UserService';
 
 const headers = GITHUB_TOKEN ? { Authorization: `token ${GITHUB_TOKEN}` } : {};
 
 export class GistService {
-  constructor(private gistRepository: GistRepository) {}
+  constructor(
+    private gistRepository: GistRepository,
+    private userService: UserService
+  ) {}
 
   async fetchGists(): Promise<Gist[]> {
     logger.info('Fetching gists from GitHub');
-    const users: string[] = await this.loadUsers(null);
+    const users: string[] = await this.userService.loadUsers(null);
 
     // Map over the array of users and create a promise for each API call
     const gistPromises = users.map(async (username: string) => {
         const url = `https://api.github.com/users/${username}/gists`;
         try {
             const response = await axios.get<Gist[]>(url, { headers });
-            logger.info(`Successfully sent request for fetching gists for user ${username}`);
+            logger.info(`Successfully sent request for fetch gists for user ${username}`);
             return response.data;
         } catch (error) {
             if (axios.isAxiosError(error)) {
@@ -54,10 +58,10 @@ export class GistService {
       const newGists = [];
       for (const gist of gists) {
         if (!savedGistIds.includes(gist.id.toString())) {
-          let users = await this.gistRepository.getUserIds([gist.owner.login]);
+          let users = await this.userService.getUserIDs([gist.owner.login]);
           let userID = users[0]
           if (!users[0]) {
-            userID = await this.gistRepository.saveUser(gist.owner.login, gist.owner.id);
+            userID = await this.userService.saveUser(gist.owner.login, gist.owner.id);
           }
 
           newGists.push({ ...gist, user_id: userID });
@@ -74,7 +78,7 @@ export class GistService {
           usernames.push(gist.owner.login)
         }
 
-        await this.addUsersToScannedList(usernames);
+        await this.userService.addUsersToScannedList(usernames);
       } else {
         logger.info('No new gists found');
       }
@@ -93,43 +97,5 @@ export class GistService {
 
   async markGistsAsViewed(gistIds: number[]): Promise<void> {
     await this.gistRepository.markGistsAsViewed(gistIds);
-  }
-
-  async addUsersToScannedList(usernames: string[]): Promise<void> {
-    const userIDs = await this.gistRepository.getUserIds(usernames);
-    if (userIDs.length > 0) {
-      await this.gistRepository.updateUsersScannedStatus(userIDs);
-    } else {
-      throw new Error(`Users not found`);
-    }
-  }
-
-  async loadUsers(isScanned: boolean | null): Promise<string[]> {
-    if (isScanned === true) {
-      return await this.gistRepository.readScannedUsers();
-    }
-
-    return await this.gistRepository.readUsers();
-  }
-
-
-  async addUser(username: string): Promise<void> {
-    try {
-      const userExists = await this.gistRepository.getUserIds([username]);
-      if (userExists.length > 0) {
-        logger.info(`User ${username} already exists`);
-        throw new Error(`User ${username} already exists`);
-      }
-
-      await this.gistRepository.createUser(username);
-      logger.info(`Successfully added user ${username}`);
-    } catch (error) {
-      if (error instanceof Error) {
-        logger.error(`Failed to add user ${username}: ${error.message}`);
-      } else {
-        logger.error(`Failed to add user ${username}: ${String(error)}`);
-      }
-      throw error;
-    }
   }
 }
