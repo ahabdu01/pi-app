@@ -33,8 +33,6 @@ export class GistController {
 
   async addUser(req: Request, res: Response): Promise<void> {
     const { username } = req.body || {};
-
-    console.log("reg body:", req.body)
     logger.info(`Received request to add user: username=${username}`);
 
     if (!username) {

@@ -14,11 +14,9 @@ export class GistService {
     logger.info('Fetching gists from GitHub');
     const users: string[] = await this.loadUsers(null);
 
-    console.log("USERS", users)
     // Map over the array of users and create a promise for each API call
     const gistPromises = users.map(async (username: string) => {
         const url = `https://api.github.com/users/${username}/gists`;
-        console.log("url",url)
         try {
             const response = await axios.get<Gist[]>(url, { headers });
             logger.info(`Successfully fetched gists for user ${username}`);
@@ -54,9 +52,7 @@ export class GistService {
       const savedGistIds = await this.gistRepository.getSavedGistIds();
 
       const newGists = [];
-      console.log("saved gists:", savedGistIds)
       for (const gist of gists) {
-        console.log("gisteeid:", gist.id)
         if (!savedGistIds.includes(gist.id.toString())) {
           let users = await this.gistRepository.getUserIds([gist.owner.login]);
           let userID = users[0]
