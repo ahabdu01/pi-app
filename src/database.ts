@@ -14,12 +14,6 @@ async function initializeDatabase(): Promise<Pool> {
   try {
     await pool.connect();
     logger.info('Connected to the database');
-    console.log(POSTGRES_USER)
-    console.log(DB_HOST)
-    console.log(POSTGRES_DB)
-    console.log(POSTGRES_PASSWORD)
-    console.log(DB_PORT)
-
     return pool;
   } catch (err) {
     logger.error('Failed to connect to the database', err);

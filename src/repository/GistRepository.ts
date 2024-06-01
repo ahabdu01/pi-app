@@ -62,6 +62,33 @@ export class GistRepository {
     }
   }
 
+  async getUserIds(usernames: string[]): Promise<number[]> {
+    if (usernames.length === 0) {
+        logger.warn('No usernames provided to fetch user IDs');
+        return [];
+    }
+
+    try {
+        const query = `SELECT id FROM users WHERE username = ANY($1::text[])`;
+        const result = await this.pool.query(query, [usernames]);
+        return result.rows.map(row => row.id);
+    } catch (error) {
+        logger.error(`Failed to get user IDs for usernames ${usernames.join(', ')}`, error);
+        return [];
+    }
+  }
+
+  async updateUsersScannedStatus(userIds: number[]): Promise<void> {
+    try {
+        const query = `UPDATE users SET is_scanned = TRUE WHERE id = ANY($1::int[])`;
+        await this.pool.query(query, [userIds]);
+        logger.info(`Updated users ${userIds.join(', ')} scanned status to TRUE`);
+    } catch (error) {
+        logger.error(`Failed to update users ${userIds.join(', ')} scanned status`, error);
+        throw error;
+    }
+  }
+
   async readScannedUsers(): Promise<string[]> {
     try {
       const result = await this.pool.query('SELECT username FROM users WHERE is_scanned = true');
@@ -99,35 +126,6 @@ export class GistRepository {
     } catch (error) {
       logger.error(`Failed to save user ${username} to the database`, error);
       throw error;
-    }
-  }
-
-  async getUserIds(usernames: string[]): Promise<number[]> {
-    if (usernames.length === 0) {
-        logger.warn('No usernames provided to fetch user IDs');
-        return [];
-    }
-
-    try {
-        const placeholders = usernames.map((_, index) => `$${index + 1}`).join(', ');
-        const query = `SELECT id FROM users WHERE username IN (${placeholders})`;
-        const result = await this.pool.query(query, usernames);
-        return result.rows.map(row => row.id);
-    } catch (error) {
-        logger.error(`Failed to get user IDs for usernames ${usernames.join(', ')}`, error);
-        return [];
-    }
-}
-
-  async updateUsersScannedStatus(userIds: number[]): Promise<void> {
-    try {
-        const placeholders = userIds.map((_, index) => `$${index + 1}`).join(', ');
-        const query = `UPDATE users SET is_scanned = TRUE WHERE id IN (${placeholders})`;
-        await this.pool.query(query, userIds);
-        logger.info(`Updated users ${userIds.join(', ')} scanned status to TRUE`);
-    } catch (error) {
-        logger.error(`Failed to update users ${userIds.join(', ')} scanned status`, error);
-        throw error;
     }
   }
 

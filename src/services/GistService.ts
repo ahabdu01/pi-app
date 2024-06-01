@@ -19,7 +19,7 @@ export class GistService {
         const url = `https://api.github.com/users/${username}/gists`;
         try {
             const response = await axios.get<Gist[]>(url, { headers });
-            logger.info(`Successfully fetched gists for user ${username}`);
+            logger.info(`Successfully sent request for fetching gists for user ${username}`);
             return response.data;
         } catch (error) {
             if (axios.isAxiosError(error)) {
@@ -73,11 +73,11 @@ export class GistService {
           await createPipedriveDeal(gist);
           usernames.push(gist.owner.login)
         }
+
+        await this.addUsersToScannedList(usernames);
       } else {
         logger.info('No new gists found');
       }
-
-      await this.addUsersToScannedList(usernames);
     } catch (error) {
       if (error instanceof Error) {
         logger.error(`Error checking for new gists: ${error.message}`);

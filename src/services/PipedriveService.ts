@@ -9,19 +9,19 @@ const PIPEDRIVE_API_URL = `https://api.pipedrive.com/v1`;
 export async function createPipedriveDeal(gist: Gist): Promise<void> {
   const dealData: Deal = {
     title: gist.description || 'No description',
-    value: 0,  // Customize this value if needed
-    currency: 'USD'  // Customize the currency if needed
+    value: 0,
+    currency: 'USD'
   };
 
   try {
     logger.info(`Creating Pipedrive deal for gist: ${gist.id}`);
     await axios.post(`${PIPEDRIVE_API_URL}/deals?api_token=${PIPEDRIVE_API_TOKEN}`, dealData);
-    logger.info(`Successfully created Pipedrive deal for gist: ${gist.id}`);
+    logger.info(`Successfully created Pipedrive deal for gist: ${gist.id} of user: ${gist.owner.login}`);
   } catch (error) {
     if (axios.isAxiosError(error)) {
-      logger.error(`Failed to create Pipedrive deal for gist: ${gist.id} - ${error.message}`);
+      logger.error(`Failed to create Pipedrive deal for gist: ${gist.id} of user: ${gist.owner.login} - ${error.message}`);
     } else {
-      logger.error(`Failed to create Pipedrive deal for gist: ${gist.id} - ${String(error)}`);
+      logger.error(`Failed to create Pipedrive deal for gist: ${gist.id} of user: ${gist.owner.login} - ${String(error)}`);
     }
     throw error;
   }
