@@ -1,0 +1,866 @@
+2024-05-26T15:55:05.376Z [info]: Server is running on port 4000
+2024-05-26T15:55:12.346Z [info]: Received request to fetch gists
+2024-05-26T15:55:12.347Z [info]: Checking for new gists
+2024-05-26T15:55:12.347Z [info]: Fetching gists from GitHub
+2024-05-26T15:55:12.681Z [info]: Successfully fetched gists from GitHub
+2024-05-26T15:55:12.682Z [info]: Retrieved last check timestamp
+2024-05-26T15:55:12.682Z [info]: Last check timestamp: 1716728059381
+2024-05-26T15:55:12.682Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T15:55:12.682Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T15:55:12.683Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T15:55:12.683Z [info]: No new gists found
+2024-05-26T15:55:12.683Z [info]: Users file is empty, starting with an empty list
+2024-05-26T15:55:12.684Z [info]: Added user ahabdu01 to scanned users list
+2024-05-26T15:55:12.684Z [warn]: New gists file is empty, returning empty list
+2024-05-26T15:56:39.247Z [info]: Server is running on port 4000
+2024-05-26T15:56:40.882Z [info]: Received request to fetch gists
+2024-05-26T15:56:40.882Z [info]: Checking for new gists
+2024-05-26T15:56:40.883Z [info]: Fetching gists from GitHub
+2024-05-26T15:56:41.202Z [info]: Successfully fetched gists from GitHub
+2024-05-26T15:56:41.202Z [warn]: Last check timestamp is empty, defaulting to 0
+2024-05-26T15:56:41.203Z [info]: Last check timestamp: 0
+2024-05-26T15:56:41.203Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T15:56:41.203Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T15:56:41.203Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T15:56:41.203Z [info]: Found 3 new gists
+2024-05-26T15:56:41.204Z [info]: Saved 3 new gists
+2024-05-26T15:56:41.204Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T15:56:44.593Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T15:56:44.593Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T15:56:44.739Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T15:56:44.739Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T15:56:44.899Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T15:56:44.900Z [info]: Updated last check timestamp
+2024-05-26T15:56:44.900Z [info]: Loaded new gists from file
+2024-05-26T15:57:06.033Z [info]: Server is running on port 4000
+2024-05-26T15:57:10.701Z [info]: Received request to fetch gists
+2024-05-26T15:57:10.702Z [info]: Checking for new gists
+2024-05-26T15:57:10.702Z [info]: Fetching gists from GitHub
+2024-05-26T15:57:11.019Z [info]: Successfully fetched gists from GitHub
+2024-05-26T15:57:11.020Z [info]: Retrieved last check timestamp
+2024-05-26T15:57:11.020Z [info]: Last check timestamp: 1716739004900
+2024-05-26T15:57:11.020Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T15:57:11.021Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T15:57:11.021Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T15:57:11.021Z [info]: No new gists found
+2024-05-26T15:57:11.022Z [info]: Loaded new gists from file
+2024-05-26T15:58:02.840Z [info]: Received request for scanned users
+2024-05-26T15:58:02.840Z [info]: Loaded scanned users from file
+2024-05-26T16:07:08.931Z [info]: Server is running on port 4000
+2024-05-26T16:07:18.890Z [info]: Received request to fetch gists
+2024-05-26T16:07:18.891Z [info]: Checking for new gists
+2024-05-26T16:07:18.891Z [info]: Fetching gists from GitHub
+2024-05-26T16:07:19.214Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:07:19.215Z [info]: Last check timestamp: 1716739004900
+2024-05-26T16:07:19.215Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:07:19.215Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:07:19.216Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:07:19.216Z [info]: No new gists found
+2024-05-26T16:07:39.204Z [info]: Server is running on port 4000
+2024-05-26T16:07:42.529Z [info]: Received request to fetch gists
+2024-05-26T16:07:42.530Z [info]: Checking for new gists
+2024-05-26T16:07:42.530Z [info]: Fetching gists from GitHub
+2024-05-26T16:07:42.856Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:07:42.857Z [info]: Last check timestamp: 1716739004900
+2024-05-26T16:07:42.857Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:07:42.857Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:07:42.857Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:07:42.858Z [info]: No new gists found
+2024-05-26T16:07:50.550Z [info]: Server is running on port 4000
+2024-05-26T16:07:52.312Z [info]: Received request to fetch gists
+2024-05-26T16:07:52.313Z [info]: Checking for new gists
+2024-05-26T16:07:52.313Z [info]: Fetching gists from GitHub
+2024-05-26T16:07:52.639Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:07:52.639Z [info]: Last check timestamp: 1716739004900
+2024-05-26T16:07:52.640Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:07:52.640Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:07:52.640Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:07:52.640Z [info]: No new gists found
+2024-05-26T16:07:52.641Z [info]: Saved users
+2024-05-26T16:08:42.074Z [info]: Server is running on port 4000
+2024-05-26T16:08:49.480Z [info]: Received request to fetch gists
+2024-05-26T16:08:49.480Z [info]: Checking for new gists
+2024-05-26T16:08:49.481Z [info]: Fetching gists from GitHub
+2024-05-26T16:08:49.805Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:08:49.805Z [warn]: Last check file does not exist, defaulting to 0
+2024-05-26T16:08:49.805Z [info]: Last check timestamp: 0
+2024-05-26T16:08:49.806Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:08:49.806Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:08:49.806Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:08:49.807Z [info]: Found 3 new gists
+2024-05-26T16:08:49.807Z [info]: Saved 3 new gists
+2024-05-26T16:08:49.808Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:08:50.041Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:08:50.041Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:08:50.207Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:08:50.207Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:08:50.367Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:08:50.367Z [info]: Updated last check timestamp
+2024-05-26T16:08:50.368Z [warn]: Users file does not exist, returning empty list
+2024-05-26T16:08:50.368Z [info]: Saved users
+2024-05-26T16:09:00.810Z [info]: Received request to fetch gists
+2024-05-26T16:09:00.811Z [info]: Checking for new gists
+2024-05-26T16:09:00.811Z [info]: Fetching gists from GitHub
+2024-05-26T16:09:01.092Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:09:01.093Z [info]: Last check timestamp: 1716739730367
+2024-05-26T16:09:01.093Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:09:01.093Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:09:01.093Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:09:01.094Z [info]: No new gists found
+2024-05-26T16:09:33.210Z [info]: Server is running on port 4000
+2024-05-26T16:09:37.551Z [info]: Received request to fetch gists
+2024-05-26T16:09:37.551Z [info]: Checking for new gists
+2024-05-26T16:09:37.552Z [info]: Fetching gists from GitHub
+2024-05-26T16:09:37.884Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:09:37.885Z [info]: Last check timestamp: 1716739730367
+2024-05-26T16:09:37.885Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:09:37.885Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:09:37.885Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:09:37.886Z [info]: No new gists found
+2024-05-26T16:10:34.062Z [info]: Server is running on port 4000
+2024-05-26T16:10:37.260Z [info]: Received request to fetch gists
+2024-05-26T16:10:37.261Z [info]: Checking for new gists
+2024-05-26T16:10:37.261Z [info]: Fetching gists from GitHub
+2024-05-26T16:10:37.576Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:10:37.577Z [info]: Last check timestamp: 1716739730367
+2024-05-26T16:10:37.577Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:10:37.577Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:10:37.577Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:10:37.578Z [info]: No new gists found
+2024-05-26T16:11:08.917Z [info]: Server is running on port 4000
+2024-05-26T16:11:24.482Z [info]: Received request to fetch gists
+2024-05-26T16:11:24.483Z [info]: Checking for new gists
+2024-05-26T16:11:24.483Z [info]: Fetching gists from GitHub
+2024-05-26T16:11:24.847Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:11:24.848Z [info]: Last check timestamp: 0
+2024-05-26T16:11:24.848Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:11:24.848Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:11:24.848Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:11:24.849Z [info]: Found 3 new gists
+2024-05-26T16:11:24.849Z [info]: Saved 3 new gists
+2024-05-26T16:11:24.849Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:11:28.170Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:11:28.170Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:11:28.335Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:11:28.335Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:11:28.507Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:11:28.507Z [info]: Updated last check timestamp
+2024-05-26T16:11:28.508Z [info]: Saved users
+2024-05-26T16:12:19.938Z [info]: Received request to fetch gists
+2024-05-26T16:12:19.938Z [info]: Checking for new gists
+2024-05-26T16:12:19.938Z [info]: Fetching gists from GitHub
+2024-05-26T16:12:20.236Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:12:20.236Z [info]: Last check timestamp: 1716739888507
+2024-05-26T16:12:20.237Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:12:20.237Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:12:20.237Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:12:20.237Z [info]: No new gists found
+2024-05-26T16:15:55.824Z [info]: Server is running on port 4000
+2024-05-26T16:16:04.435Z [info]: Received request to fetch gists
+2024-05-26T16:16:04.435Z [info]: Checking for new gists
+2024-05-26T16:16:04.435Z [info]: Fetching gists from GitHub
+2024-05-26T16:16:04.783Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:16:04.784Z [info]: Last check timestamp: 1716739888507
+2024-05-26T16:16:04.784Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:16:04.784Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:16:04.785Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:16:04.785Z [info]: No new gists found
+2024-05-26T16:16:04.785Z [info]: Saved users
+2024-05-26T16:17:15.315Z [info]: Server is running on port 4000
+2024-05-26T16:17:19.174Z [info]: Received request to fetch gists
+2024-05-26T16:17:19.174Z [info]: Checking for new gists
+2024-05-26T16:17:19.174Z [info]: Fetching gists from GitHub
+2024-05-26T16:17:19.498Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:17:19.498Z [warn]: Last check file does not exist, defaulting to 0
+2024-05-26T16:17:19.499Z [info]: Last check timestamp: 0
+2024-05-26T16:17:19.499Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:17:19.499Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:17:19.499Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:17:19.500Z [info]: Found 3 new gists
+2024-05-26T16:17:19.500Z [info]: Saved 3 new gists
+2024-05-26T16:17:19.500Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:17:22.832Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:17:22.833Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:17:22.991Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:17:22.991Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:17:23.151Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:17:23.152Z [info]: Updated last check timestamp
+2024-05-26T16:17:23.152Z [warn]: Users file does not exist, returning empty list
+2024-05-26T16:17:23.159Z [info]: Saved users
+2024-05-26T16:17:48.303Z [info]: Received request to fetch gists
+2024-05-26T16:17:48.304Z [info]: Checking for new gists
+2024-05-26T16:17:48.304Z [info]: Fetching gists from GitHub
+2024-05-26T16:17:48.580Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:17:48.581Z [info]: Last check timestamp: 1716740243151
+2024-05-26T16:17:48.581Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:17:48.581Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:17:48.581Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:17:48.582Z [info]: No new gists found
+2024-05-26T16:19:38.750Z [info]: Received request for scanned users
+2024-05-26T16:20:08.351Z [info]: Received request to fetch gists
+2024-05-26T16:20:08.351Z [info]: Checking for new gists
+2024-05-26T16:20:08.351Z [info]: Fetching gists from GitHub
+2024-05-26T16:20:08.657Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:20:08.657Z [info]: Last check timestamp: 1716740243151
+2024-05-26T16:20:08.657Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:20:08.658Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:20:08.658Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:20:08.658Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:20:08.658Z [info]: Found 1 new gists
+2024-05-26T16:20:08.658Z [info]: Saved 1 new gists
+2024-05-26T16:20:08.659Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T16:20:11.988Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T16:20:11.988Z [info]: Updated last check timestamp
+2024-05-26T16:20:22.540Z [info]: Received request to fetch gists
+2024-05-26T16:20:22.540Z [info]: Checking for new gists
+2024-05-26T16:20:22.541Z [info]: Fetching gists from GitHub
+2024-05-26T16:20:22.836Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:20:22.836Z [info]: Last check timestamp: 1716740411988
+2024-05-26T16:20:22.837Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:20:22.837Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:20:22.837Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:20:22.837Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:20:22.837Z [info]: No new gists found
+2024-05-26T16:22:46.825Z [info]: Server is running on port 4000
+2024-05-26T16:22:54.930Z [info]: Received request to fetch gists
+2024-05-26T16:22:54.930Z [info]: Checking for new gists
+2024-05-26T16:22:54.931Z [info]: Fetching gists from GitHub
+2024-05-26T16:22:55.272Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:22:55.273Z [info]: Latest gist timestamp: 1716740397000
+2024-05-26T16:22:55.273Z [info]: Last check timestamp: 1716740397000
+2024-05-26T16:22:55.273Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:22:55.273Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:22:55.274Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:22:55.274Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:22:55.274Z [info]: No new gists found
+2024-05-26T16:23:43.022Z [info]: Received request to fetch gists
+2024-05-26T16:23:43.023Z [info]: Checking for new gists
+2024-05-26T16:23:43.023Z [info]: Fetching gists from GitHub
+2024-05-26T16:23:43.324Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:23:43.325Z [info]: Latest gist timestamp: 1716740397000
+2024-05-26T16:23:43.325Z [info]: Last check timestamp: 1716740397000
+2024-05-26T16:23:43.325Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T16:23:43.325Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:23:43.325Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:23:43.326Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:23:43.326Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:23:43.326Z [info]: Found 1 new gists
+2024-05-26T16:23:43.327Z [info]: Saved 2 new gists
+2024-05-26T16:23:43.327Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T16:23:46.630Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T16:26:50.186Z [info]: Received request to fetch gists
+2024-05-26T16:26:50.187Z [info]: Checking for new gists
+2024-05-26T16:26:50.187Z [info]: Fetching gists from GitHub
+2024-05-26T16:26:50.499Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:26:50.499Z [info]: Latest gist timestamp: 1716740619000
+2024-05-26T16:26:50.499Z [info]: Last check timestamp: 1716740619000
+2024-05-26T16:26:50.499Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T16:26:50.499Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:26:50.499Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:26:50.500Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:26:50.500Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:26:50.500Z [info]: No new gists found
+2024-05-26T16:27:05.410Z [info]: Received request for new gists
+2024-05-26T16:27:05.411Z [info]: Cleared new gists file
+2024-05-26T16:27:14.548Z [info]: Received request for new gists
+2024-05-26T16:27:14.549Z [info]: Cleared new gists file
+2024-05-26T16:27:26.003Z [info]: Server is running on port 4000
+2024-05-26T16:27:34.417Z [info]: Received request to fetch gists
+2024-05-26T16:27:34.417Z [info]: Checking for new gists
+2024-05-26T16:27:34.418Z [info]: Fetching gists from GitHub
+2024-05-26T16:27:34.756Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:27:34.756Z [warn]: No gists found, defaulting to 0 for last check timestamp
+2024-05-26T16:27:34.757Z [info]: Last check timestamp: 0
+2024-05-26T16:27:34.757Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T16:27:34.757Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:27:34.758Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:27:34.758Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:27:34.758Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:27:34.758Z [info]: Found 5 new gists
+2024-05-26T16:27:34.759Z [info]: Saved 5 new gists
+2024-05-26T16:27:34.759Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T16:27:38.149Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T16:27:38.149Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T16:27:38.312Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T16:27:38.312Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:27:38.481Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:27:38.481Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:27:38.652Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:27:38.652Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:27:38.809Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:42:48.499Z [info]: Server is running on port 4000
+2024-05-26T16:42:52.725Z [info]: Received request to fetch gists
+2024-05-26T16:42:52.725Z [info]: Checking for new gists
+2024-05-26T16:42:52.725Z [info]: Fetching gists from GitHub
+2024-05-26T16:42:53.066Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:42:53.066Z [warn]: Last check file does not exist, defaulting to 0
+2024-05-26T16:42:53.067Z [info]: Last check timestamp: 0
+2024-05-26T16:42:53.067Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T16:42:53.067Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:42:53.067Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:42:53.068Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:42:53.068Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:42:53.068Z [info]: Found 5 new gists
+2024-05-26T16:42:53.069Z [info]: Saved 5 new gists
+2024-05-26T16:42:53.069Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T16:42:53.530Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T16:42:53.530Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T16:42:53.692Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T16:42:53.692Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:42:53.880Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T16:42:53.880Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:42:54.038Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T16:42:54.039Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:42:54.195Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T16:42:54.196Z [info]: Updated last check timestamp
+2024-05-26T16:42:54.196Z [info]: Saved users
+2024-05-26T16:43:51.095Z [info]: Received request for new gists
+2024-05-26T16:43:51.096Z [info]: Cleared new gists file
+2024-05-26T16:43:54.057Z [info]: Received request for new gists
+2024-05-26T16:43:54.058Z [info]: Cleared new gists file
+2024-05-26T16:43:55.871Z [info]: Received request to fetch gists
+2024-05-26T16:43:55.871Z [info]: Checking for new gists
+2024-05-26T16:43:55.872Z [info]: Fetching gists from GitHub
+2024-05-26T16:43:56.206Z [info]: Successfully fetched gists from GitHub
+2024-05-26T16:43:56.206Z [info]: Last check timestamp: 1716741774195
+2024-05-26T16:43:56.206Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T16:43:56.206Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T16:43:56.207Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T16:43:56.207Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T16:43:56.207Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T16:43:56.207Z [info]: No new gists found
+2024-05-26T16:44:02.021Z [info]: Received request for new gists
+2024-05-26T16:44:02.022Z [info]: Cleared new gists file
+2024-05-26T17:33:32.505Z [error]: Database migration failed SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-05-26T17:36:41.716Z [info]: Database migration completed successfully
+2024-05-26T17:37:03.816Z [error]: Database migration failed relation "users" already exists
+2024-05-26T17:37:47.097Z [info]: Database migration completed successfully
+2024-05-26T17:45:35.426Z [info]: Server is running on port 4000
+2024-05-26T17:45:43.527Z [info]: Received request to fetch gists
+2024-05-26T17:45:43.527Z [info]: Checking for new gists
+2024-05-26T17:45:43.528Z [info]: Fetching gists from GitHub
+2024-05-26T17:45:43.889Z [info]: Successfully fetched gists from GitHub
+2024-05-26T17:45:43.902Z [warn]: No last check timestamp found, defaulting to 0
+2024-05-26T17:45:43.902Z [info]: Last check timestamp: 0
+2024-05-26T17:45:43.902Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T17:45:44.005Z [info]: Saved user ahabdu01 to the database
+2024-05-26T17:45:44.006Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T17:45:44.047Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T17:45:44.097Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T17:45:44.147Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T17:45:44.197Z [info]: Found 5 new gists
+2024-05-26T17:45:44.448Z [info]: Saved 5 new gists to the database
+2024-05-26T17:45:44.448Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T17:45:44.705Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T17:45:44.706Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T17:45:44.889Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T17:45:44.889Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T17:45:45.059Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T17:45:45.060Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T17:45:45.239Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T17:45:45.239Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T17:45:45.406Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T17:45:45.465Z [info]: Updated last check timestamp in the database
+2024-05-26T17:45:45.507Z [info]: Saved user ahabdu01 to the database
+2024-05-26T17:45:45.510Z [error]: Failed to save user ahabdu01 to the database Cannot read properties of undefined (reading 'id')
+2024-05-26T17:45:45.510Z [error]: Error checking for new gists: Cannot read properties of undefined (reading 'id')
+2024-05-26T17:46:02.432Z [info]: Received request to fetch gists
+2024-05-26T17:46:02.433Z [info]: Checking for new gists
+2024-05-26T17:46:02.433Z [info]: Fetching gists from GitHub
+2024-05-26T17:46:02.760Z [info]: Successfully fetched gists from GitHub
+2024-05-26T17:46:02.768Z [info]: Last check timestamp: 1716745545406
+2024-05-26T17:46:02.768Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T17:46:02.768Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T17:46:02.768Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T17:46:02.769Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T17:46:02.769Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T17:46:02.769Z [info]: No new gists found
+2024-05-26T17:46:02.817Z [info]: Saved user ahabdu01 to the database
+2024-05-26T17:46:02.818Z [error]: Failed to save user ahabdu01 to the database Cannot read properties of undefined (reading 'id')
+2024-05-26T17:46:02.818Z [error]: Error checking for new gists: Cannot read properties of undefined (reading 'id')
+2024-05-26T17:46:06.982Z [info]: Received request for new gists
+2024-05-26T17:46:10.502Z [info]: Received request to fetch gists
+2024-05-26T17:46:10.503Z [info]: Checking for new gists
+2024-05-26T17:46:10.503Z [info]: Fetching gists from GitHub
+2024-05-26T17:46:10.801Z [info]: Successfully fetched gists from GitHub
+2024-05-26T17:46:10.802Z [info]: Last check timestamp: 1716745545406
+2024-05-26T17:46:10.802Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T17:46:10.802Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T17:46:10.802Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T17:46:10.803Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T17:46:10.803Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T17:46:10.803Z [info]: No new gists found
+2024-05-26T17:46:10.847Z [info]: Saved user ahabdu01 to the database
+2024-05-26T17:46:10.848Z [error]: Failed to save user ahabdu01 to the database Cannot read properties of undefined (reading 'id')
+2024-05-26T17:46:10.848Z [error]: Error checking for new gists: Cannot read properties of undefined (reading 'id')
+2024-05-26T17:46:13.680Z [info]: Received request for new gists
+2024-05-26T17:46:19.818Z [info]: Received request for new gists
+2024-05-26T17:46:31.358Z [info]: Received request to fetch gists
+2024-05-26T17:46:31.358Z [info]: Checking for new gists
+2024-05-26T17:46:31.359Z [info]: Fetching gists from GitHub
+2024-05-26T17:46:31.735Z [info]: Successfully fetched gists from GitHub
+2024-05-26T17:46:31.743Z [info]: Last check timestamp: 1716745545406
+2024-05-26T17:46:31.743Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T17:46:31.743Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T17:46:31.743Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T17:46:31.743Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T17:46:31.744Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T17:46:31.744Z [info]: No new gists found
+2024-05-26T17:46:31.787Z [info]: Saved user ahabdu01 to the database
+2024-05-26T17:46:31.788Z [error]: Failed to save user ahabdu01 to the database Cannot read properties of undefined (reading 'id')
+2024-05-26T17:46:31.788Z [error]: Error checking for new gists: Cannot read properties of undefined (reading 'id')
+2024-05-26T17:55:21.088Z [error]: Database migration failed relation "users" already exists
+2024-05-26T17:55:41.855Z [info]: Database migration completed successfully
+2024-05-26T17:58:05.967Z [info]: Server is running on port 4000
+2024-05-26T17:58:12.036Z [info]: Received request to fetch gists
+2024-05-26T17:58:12.037Z [info]: Checking for new gists
+2024-05-26T17:58:12.037Z [info]: Fetching gists from GitHub
+2024-05-26T17:58:12.385Z [info]: Successfully fetched gists from GitHub
+2024-05-26T17:58:12.393Z [warn]: No last check timestamp found, defaulting to 0
+2024-05-26T17:58:12.394Z [info]: Last check timestamp: 0
+2024-05-26T17:58:12.394Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T17:58:12.492Z [info]: Saved user ahabdu01 to the database
+2024-05-26T17:58:12.492Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T17:58:12.541Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T17:58:12.591Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T17:58:12.641Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T17:58:12.691Z [info]: Found 5 new gists
+2024-05-26T17:58:12.941Z [info]: Saved 5 new gists to the database
+2024-05-26T17:58:12.942Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T17:58:13.810Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T17:58:13.811Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T17:58:13.972Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T17:58:13.972Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T17:58:14.145Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T17:58:14.145Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T17:58:14.294Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T17:58:14.294Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T17:58:14.449Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T17:58:14.498Z [info]: Updated last check timestamp in the database
+2024-05-26T17:58:14.592Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T17:58:20.249Z [info]: Received request for new gists
+2024-05-26T17:58:20.301Z [info]: Marked gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T17:58:22.083Z [info]: Received request for new gists
+2024-05-26T17:58:22.131Z [info]: Marked gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T17:58:26.946Z [info]: Received request for new gists
+2024-05-26T17:58:26.990Z [info]: Marked gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T17:59:07.454Z [info]: Received request for new gists
+2024-05-26T17:59:07.509Z [info]: Marked gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:02:05.740Z [info]: Server is running on port 4000
+2024-05-26T18:02:09.988Z [info]: Received request to fetch gists
+2024-05-26T18:02:09.988Z [info]: Checking for new gists
+2024-05-26T18:02:09.989Z [info]: Fetching gists from GitHub
+2024-05-26T18:02:10.332Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:02:10.341Z [info]: Last check timestamp: 1716746294449
+2024-05-26T18:02:10.341Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:02:10.341Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:02:10.341Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:02:10.341Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:02:10.342Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:02:10.342Z [info]: No new gists found
+2024-05-26T18:02:10.445Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:02:13.363Z [info]: Received request for new gists
+2024-05-26T18:02:13.364Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:02:13.407Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:02:16.154Z [info]: Received request for new gists
+2024-05-26T18:02:16.156Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:02:16.207Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:02:17.646Z [info]: Received request for new gists
+2024-05-26T18:02:17.648Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:02:17.697Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:05:53.298Z [info]: Server is running on port 4000
+2024-05-26T18:05:59.036Z [info]: Received request for new gists
+2024-05-26T18:05:59.044Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:05:59.098Z [error]: Failed to mark gists as viewed bind message supplies 1 parameters, but prepared statement "" requires 0
+2024-05-26T18:06:00.747Z [info]: Received request for new gists
+2024-05-26T18:06:00.756Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:06:00.805Z [error]: Failed to mark gists as viewed bind message supplies 1 parameters, but prepared statement "" requires 0
+2024-05-26T18:06:12.740Z [info]: Server is running on port 4000
+2024-05-26T18:06:16.145Z [info]: Received request for new gists
+2024-05-26T18:06:16.155Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:06:16.164Z [info]: Successfully marked gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:06:21.050Z [info]: Received request for new gists
+2024-05-26T18:06:21.051Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T18:06:21.053Z [info]: Successfully marked gists as viewed: 
+2024-05-26T18:09:06.626Z [info]: Server is running on port 4000
+2024-05-26T18:09:36.484Z [info]: Received request for new gists
+2024-05-26T18:09:36.493Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:09:36.538Z [error]: Failed to mark gists as viewed bind message supplies 5 parameters, but prepared statement "" requires 1
+2024-05-26T18:09:38.520Z [info]: Received request for new gists
+2024-05-26T18:09:38.530Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:09:38.575Z [error]: Failed to mark gists as viewed bind message supplies 5 parameters, but prepared statement "" requires 1
+2024-05-26T18:09:39.149Z [info]: Received request for new gists
+2024-05-26T18:09:39.156Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:09:39.215Z [error]: Failed to mark gists as viewed bind message supplies 5 parameters, but prepared statement "" requires 1
+2024-05-26T18:09:53.452Z [info]: Server is running on port 4000
+2024-05-26T18:09:56.338Z [info]: Received request for new gists
+2024-05-26T18:09:56.348Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:09:56.395Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:09:57.718Z [info]: Received request for new gists
+2024-05-26T18:09:57.720Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:09:57.765Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:20:14.617Z [info]: Server is running on port 4000
+2024-05-26T18:20:17.501Z [info]: Received request for new gists
+2024-05-26T18:20:17.511Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:20:17.563Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:20:17.942Z [info]: Received request for new gists
+2024-05-26T18:20:17.944Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:20:17.993Z [warn]: No gists were marked as viewed for gist IDs: 1, 2, 3, 4, 5
+2024-05-26T18:25:38.751Z [info]: Server is running on port 4000
+2024-05-26T18:25:42.450Z [info]: Received request for new gists
+2024-05-26T18:25:42.459Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:25:42.465Z [error]: Failed to mark gists as viewed operator does not exist: character varying = integer
+2024-05-26T18:25:43.963Z [info]: Received request for new gists
+2024-05-26T18:25:43.971Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:25:43.972Z [error]: Failed to mark gists as viewed operator does not exist: character varying = integer
+2024-05-26T18:31:00.871Z [info]: Server is running on port 4000
+2024-05-26T18:31:04.812Z [info]: Received request for new gists
+2024-05-26T18:31:04.821Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5
+2024-05-26T18:31:04.880Z [info]: Successfully marked 5 gists as viewed
+2024-05-26T18:31:05.882Z [info]: Received request for new gists
+2024-05-26T18:31:05.884Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T18:31:05.932Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-26T18:31:12.772Z [info]: Received request to fetch gists
+2024-05-26T18:31:12.772Z [info]: Checking for new gists
+2024-05-26T18:31:12.772Z [info]: Fetching gists from GitHub
+2024-05-26T18:31:13.092Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:31:13.094Z [info]: Last check timestamp: 1716746294449
+2024-05-26T18:31:13.094Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:31:13.094Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:31:13.094Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:31:13.095Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:31:13.095Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:31:13.095Z [info]: No new gists found
+2024-05-26T18:31:13.210Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:31:15.239Z [info]: Received request to fetch gists
+2024-05-26T18:31:15.239Z [info]: Checking for new gists
+2024-05-26T18:31:15.239Z [info]: Fetching gists from GitHub
+2024-05-26T18:31:15.446Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:31:15.448Z [info]: Last check timestamp: 1716746294449
+2024-05-26T18:31:15.448Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:31:15.448Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:31:15.448Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:31:15.448Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:31:15.448Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:31:15.449Z [info]: No new gists found
+2024-05-26T18:31:15.543Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:32:12.237Z [info]: Received request to fetch gists
+2024-05-26T18:32:12.238Z [info]: Checking for new gists
+2024-05-26T18:32:12.238Z [info]: Fetching gists from GitHub
+2024-05-26T18:32:12.678Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:32:12.686Z [info]: Last check timestamp: 1716746294449
+2024-05-26T18:32:12.686Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:32:12.733Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:32:12.733Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:32:12.733Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:32:12.733Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:32:12.733Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:32:12.734Z [info]: Found 1 new gists
+2024-05-26T18:32:12.791Z [info]: Saved 1 new gists to the database
+2024-05-26T18:32:12.791Z [info]: Creating Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:32:13.274Z [info]: Successfully created Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:32:13.330Z [info]: Updated last check timestamp in the database
+2024-05-26T18:32:13.423Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:32:15.075Z [info]: Received request to fetch gists
+2024-05-26T18:32:15.076Z [info]: Checking for new gists
+2024-05-26T18:32:15.076Z [info]: Fetching gists from GitHub
+2024-05-26T18:32:15.322Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:32:15.323Z [info]: Last check timestamp: 1716748333274
+2024-05-26T18:32:15.323Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:32:15.324Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:32:15.324Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:32:15.324Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:32:15.324Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:32:15.324Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:32:15.324Z [info]: No new gists found
+2024-05-26T18:32:15.423Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:32:17.601Z [info]: Received request for new gists
+2024-05-26T18:32:17.602Z [info]: Attempting to mark gists as viewed: 6
+2024-05-26T18:32:17.661Z [info]: Successfully marked 1 gists as viewed
+2024-05-26T18:32:19.589Z [info]: Received request to fetch gists
+2024-05-26T18:32:19.589Z [info]: Checking for new gists
+2024-05-26T18:32:19.589Z [info]: Fetching gists from GitHub
+2024-05-26T18:32:19.848Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:32:19.849Z [info]: Last check timestamp: 1716748333274
+2024-05-26T18:32:19.850Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:32:19.850Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:32:19.850Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:32:19.850Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:32:19.850Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:32:19.850Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:32:19.851Z [info]: No new gists found
+2024-05-26T18:32:19.943Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:32:21.660Z [info]: Received request for new gists
+2024-05-26T18:32:21.662Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T18:32:21.713Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-26T18:33:36.896Z [info]: Received request to fetch gists
+2024-05-26T18:33:36.897Z [info]: Checking for new gists
+2024-05-26T18:33:36.897Z [info]: Fetching gists from GitHub
+2024-05-26T18:33:37.227Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:33:37.234Z [info]: Last check timestamp: 1716748333274
+2024-05-26T18:33:37.235Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:33:37.235Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:33:37.235Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:33:37.235Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:33:37.235Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:33:37.236Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:33:37.236Z [info]: No new gists found
+2024-05-26T18:33:37.341Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:36:33.811Z [info]: Database migration completed successfully
+2024-05-26T18:37:16.809Z [info]: Server is running on port 4000
+2024-05-26T18:37:19.709Z [info]: Received request to fetch gists
+2024-05-26T18:37:19.709Z [info]: Checking for new gists
+2024-05-26T18:37:19.710Z [info]: Fetching gists from GitHub
+2024-05-26T18:37:20.057Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:37:20.068Z [warn]: No last check timestamp found, defaulting to 0
+2024-05-26T18:37:20.068Z [info]: Last check timestamp: 0
+2024-05-26T18:37:20.069Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:37:20.162Z [info]: Saved user ahabdu01 to the database
+2024-05-26T18:37:20.163Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:37:20.211Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:37:20.261Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:37:20.311Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:37:20.361Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:37:20.411Z [info]: Found 6 new gists
+2024-05-26T18:37:20.712Z [info]: Saved 6 new gists to the database
+2024-05-26T18:37:20.712Z [info]: Creating Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:37:22.392Z [info]: Successfully created Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:37:22.393Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:37:22.564Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:37:22.564Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:37:22.733Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:37:22.734Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:37:22.899Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:37:22.900Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:37:23.082Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:37:23.083Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:37:23.281Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:37:23.332Z [info]: Updated last check timestamp in the database
+2024-05-26T18:37:23.432Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:37:30.962Z [info]: Received request for new gists
+2024-05-26T18:37:30.963Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5, 6
+2024-05-26T18:37:31.012Z [info]: Successfully marked 6 gists as viewed
+2024-05-26T18:37:33.914Z [info]: Received request for new gists
+2024-05-26T18:37:33.915Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T18:37:33.961Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-26T18:37:35.791Z [info]: Received request to fetch gists
+2024-05-26T18:37:35.791Z [info]: Checking for new gists
+2024-05-26T18:37:35.791Z [info]: Fetching gists from GitHub
+2024-05-26T18:37:36.112Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:37:36.113Z [info]: Last check timestamp: 1716748643282
+2024-05-26T18:37:36.113Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:37:36.113Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:37:36.114Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:37:36.114Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:37:36.114Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:37:36.114Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:37:36.114Z [info]: No new gists found
+2024-05-26T18:37:36.212Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:52:33.057Z [info]: Server is running on port 4000
+2024-05-26T18:52:37.005Z [info]: Received request to fetch gists
+2024-05-26T18:52:37.005Z [info]: Checking for new gists
+2024-05-26T18:52:37.006Z [info]: Fetching gists from GitHub
+2024-05-26T18:52:37.456Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:52:37.456Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:52:37.509Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:52:37.558Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:52:37.608Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:52:37.658Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:52:37.708Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:52:37.758Z [info]: Found 6 new gists
+2024-05-26T18:52:38.058Z [info]: Saved 6 new gists to the database
+2024-05-26T18:52:38.058Z [info]: Creating Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:52:38.572Z [info]: Successfully created Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:52:38.573Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:52:38.752Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:52:38.753Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:52:38.925Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:52:38.926Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:52:39.090Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:52:39.090Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:52:39.264Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:52:39.264Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:52:39.434Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:52:39.529Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:52:48.415Z [info]: Received request to fetch gists
+2024-05-26T18:52:48.415Z [info]: Checking for new gists
+2024-05-26T18:52:48.415Z [info]: Fetching gists from GitHub
+2024-05-26T18:52:48.721Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:52:48.721Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:52:48.768Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:52:48.818Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:52:48.868Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:52:48.918Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:52:48.968Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:52:49.018Z [info]: Found 6 new gists
+2024-05-26T18:52:49.318Z [info]: Saved 6 new gists to the database
+2024-05-26T18:52:49.318Z [info]: Creating Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:52:52.631Z [info]: Successfully created Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:52:52.632Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:52:52.824Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:52:52.824Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:52:52.987Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:52:52.988Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:52:53.147Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:52:53.148Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:52:53.313Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:52:53.314Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:52:53.481Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:52:53.586Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T18:53:23.511Z [info]: Received request to fetch gists
+2024-05-26T18:53:23.512Z [info]: Checking for new gists
+2024-05-26T18:53:23.512Z [info]: Fetching gists from GitHub
+2024-05-26T18:53:23.889Z [info]: Successfully fetched gists from GitHub
+2024-05-26T18:53:23.889Z [info]: Gist created at: 2024-05-26T18:32:07Z, timestamp: 1716748327000
+2024-05-26T18:53:23.948Z [info]: Gist created at: 2024-05-26T16:23:39Z, timestamp: 1716740619000
+2024-05-26T18:53:23.998Z [info]: Gist created at: 2024-05-26T16:19:57Z, timestamp: 1716740397000
+2024-05-26T18:53:24.048Z [info]: Gist created at: 2024-05-26T12:53:37Z, timestamp: 1716728017000
+2024-05-26T18:53:24.098Z [info]: Gist created at: 2024-05-26T09:23:29Z, timestamp: 1716715409000
+2024-05-26T18:53:24.148Z [info]: Gist created at: 2024-05-26T08:35:42Z, timestamp: 1716712542000
+2024-05-26T18:53:24.198Z [info]: Found 6 new gists
+2024-05-26T18:53:24.498Z [info]: Saved 6 new gists to the database
+2024-05-26T18:53:24.498Z [info]: Creating Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:53:24.660Z [info]: Successfully created Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T18:53:24.660Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:53:24.831Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T18:53:24.831Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:53:25.003Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T18:53:25.003Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:53:25.172Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T18:53:25.172Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:53:25.360Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T18:53:25.360Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:53:25.537Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T18:53:25.646Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:00:16.925Z [info]: Server is running on port 4000
+2024-05-26T19:00:36.687Z [info]: Server is running on port 4000
+2024-05-26T19:00:40.408Z [info]: Received request to fetch gists
+2024-05-26T19:00:40.408Z [info]: Checking for new gists
+2024-05-26T19:00:40.409Z [info]: Fetching gists from GitHub
+2024-05-26T19:00:40.759Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:00:40.767Z [info]: No new gists found
+2024-05-26T19:00:40.876Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:00:42.334Z [info]: Received request to fetch gists
+2024-05-26T19:00:42.335Z [info]: Checking for new gists
+2024-05-26T19:00:42.335Z [info]: Fetching gists from GitHub
+2024-05-26T19:00:42.575Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:00:42.576Z [info]: No new gists found
+2024-05-26T19:00:42.686Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:00:44.121Z [info]: Received request for new gists
+2024-05-26T19:00:44.122Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T19:00:44.167Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-26T19:00:45.766Z [info]: Received request for new gists
+2024-05-26T19:00:45.768Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T19:00:45.817Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-26T19:00:57.200Z [info]: Received request to fetch gists
+2024-05-26T19:00:57.201Z [info]: Checking for new gists
+2024-05-26T19:00:57.201Z [info]: Fetching gists from GitHub
+2024-05-26T19:00:57.510Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:00:57.518Z [info]: No new gists found
+2024-05-26T19:00:57.626Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:01:26.030Z [info]: Received request to fetch gists
+2024-05-26T19:01:26.031Z [info]: Checking for new gists
+2024-05-26T19:01:26.031Z [info]: Fetching gists from GitHub
+2024-05-26T19:01:26.344Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:01:26.352Z [info]: No new gists found
+2024-05-26T19:01:26.456Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:01:35.704Z [info]: Received request for new gists
+2024-05-26T19:01:35.706Z [info]: Attempting to mark gists as viewed: 1, 2, 3, 4, 5, 6
+2024-05-26T19:01:35.756Z [info]: Successfully marked 6 gists as viewed
+2024-05-26T19:01:37.799Z [info]: Received request for new gists
+2024-05-26T19:01:37.800Z [info]: Attempting to mark gists as viewed: 
+2024-05-26T19:01:37.847Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-26T19:01:39.153Z [info]: Received request to fetch gists
+2024-05-26T19:01:39.153Z [info]: Checking for new gists
+2024-05-26T19:01:39.153Z [info]: Fetching gists from GitHub
+2024-05-26T19:01:39.463Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:01:39.464Z [info]: No new gists found
+2024-05-26T19:01:39.566Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:01:57.788Z [info]: Received request to fetch gists
+2024-05-26T19:01:57.789Z [info]: Checking for new gists
+2024-05-26T19:01:57.789Z [info]: Fetching gists from GitHub
+2024-05-26T19:01:58.125Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:01:58.427Z [info]: Found 6 new gists
+2024-05-26T19:01:58.728Z [info]: Saved 6 new gists to the database
+2024-05-26T19:01:58.729Z [info]: Creating Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T19:02:02.077Z [info]: Successfully created Pipedrive deal for gist: 9c1592ddc8e44e93a60ac63bb312f468
+2024-05-26T19:02:02.077Z [info]: Creating Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T19:02:02.260Z [info]: Successfully created Pipedrive deal for gist: d8cabb156d7a814152865c7892850be8
+2024-05-26T19:02:02.260Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T19:02:02.435Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-26T19:02:02.436Z [info]: Creating Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T19:02:02.614Z [info]: Successfully created Pipedrive deal for gist: 5ed54eaf924622820c81ad3cf4db332a
+2024-05-26T19:02:02.615Z [info]: Creating Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T19:02:02.771Z [info]: Successfully created Pipedrive deal for gist: 021a102aa4ad11213d512454aff062bc
+2024-05-26T19:02:02.771Z [info]: Creating Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T19:02:02.933Z [info]: Successfully created Pipedrive deal for gist: b836afbd6eddc49564ed9bbba91511de
+2024-05-26T19:02:03.036Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:02:07.180Z [info]: Received request for new gists
+2024-05-26T19:02:07.182Z [info]: Attempting to mark gists as viewed: 25, 26, 27, 28, 29, 30
+2024-05-26T19:02:07.237Z [info]: Successfully marked 6 gists as viewed
+2024-05-26T19:02:12.059Z [info]: Received request to fetch gists
+2024-05-26T19:02:12.059Z [info]: Checking for new gists
+2024-05-26T19:02:12.060Z [info]: Fetching gists from GitHub
+2024-05-26T19:02:12.359Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:02:12.360Z [info]: No new gists found
+2024-05-26T19:02:12.466Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:02:47.161Z [info]: Received request to fetch gists
+2024-05-26T19:02:47.162Z [info]: Checking for new gists
+2024-05-26T19:02:47.162Z [info]: Fetching gists from GitHub
+2024-05-26T19:02:47.520Z [info]: Successfully fetched gists from GitHub
+2024-05-26T19:02:47.577Z [info]: Found 1 new gists
+2024-05-26T19:02:47.628Z [info]: Saved 1 new gists to the database
+2024-05-26T19:02:47.629Z [info]: Creating Pipedrive deal for gist: 50aeb82374c5cd29856bd36559cfcca4
+2024-05-26T19:02:47.815Z [info]: Successfully created Pipedrive deal for gist: 50aeb82374c5cd29856bd36559cfcca4
+2024-05-26T19:02:47.916Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-26T19:02:53.191Z [info]: Received request for new gists
+2024-05-26T19:02:53.192Z [info]: Attempting to mark gists as viewed: 31
+2024-05-26T19:02:53.246Z [info]: Successfully marked 1 gists as viewed
+2024-05-28T15:45:23.203Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND db
+2024-05-28T19:39:34.988Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND pi-app-project:us-central1:piappdb
+2024-05-28T19:39:59.961Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND pi-app-project:us-central1:piappdb
+2024-05-28T19:40:38.704Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND pi-app-project:us-central1:piappdb
+2024-05-28T19:42:30.171Z [info]: Server is running on port 8080
+2024-05-28T19:51:08.074Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND pi-app-project:us-central1:piappdb
+2024-05-28T19:51:29.204Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND pi-app-project:us-central1:piappdb
+2024-05-28T19:52:03.877Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND pi-app-project:us-central1:piappdb
+2024-05-28T19:52:54.556Z [info]: Server is running on port 8080
+2024-05-30T18:10:41.593Z [info]: Server is running on port 8080
+2024-05-30T18:10:49.953Z [info]: Received request for new gists
+2024-05-30T18:10:50.606Z [info]: Attempting to mark gists as viewed: 
+2024-05-30T18:10:50.622Z [info]: Received request to fetch gists
+2024-05-30T18:10:50.623Z [info]: Checking for new gists
+2024-05-30T18:10:50.623Z [info]: Fetching gists from GitHub
+2024-05-30T18:10:50.736Z [warn]: No gists were marked as viewed for gist IDs: 
+2024-05-30T18:10:50.966Z [info]: Successfully fetched gists from GitHub
+2024-05-30T18:10:51.095Z [info]: No new gists found
+2024-05-30T18:10:51.355Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-30T18:10:58.526Z [info]: Received request to fetch gists
+2024-05-30T18:10:58.527Z [info]: Checking for new gists
+2024-05-30T18:10:58.527Z [info]: Fetching gists from GitHub
+2024-05-30T18:10:58.854Z [info]: Successfully fetched gists from GitHub
+2024-05-30T18:10:58.982Z [info]: No new gists found
+2024-05-30T18:10:59.240Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-30T18:12:05.263Z [info]: Received request to fetch gists
+2024-05-30T18:12:05.263Z [info]: Checking for new gists
+2024-05-30T18:12:05.263Z [info]: Fetching gists from GitHub
+2024-05-30T18:12:05.759Z [info]: Successfully fetched gists from GitHub
+2024-05-30T18:12:06.407Z [info]: No new gists found
+2024-05-30T18:12:06.665Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-30T18:13:24.176Z [info]: Received request to fetch gists
+2024-05-30T18:13:24.176Z [info]: Checking for new gists
+2024-05-30T18:13:24.176Z [info]: Fetching gists from GitHub
+2024-05-30T18:13:24.502Z [info]: Successfully fetched gists from GitHub
+2024-05-30T18:13:25.282Z [info]: Found 1 new gists
+2024-05-30T18:13:25.413Z [info]: Saved 1 new gists to the database
+2024-05-30T18:13:25.414Z [info]: Creating Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-30T18:13:28.840Z [info]: Successfully created Pipedrive deal for gist: 2442c676ef495eef46e1581d5ec92baf
+2024-05-30T18:13:29.098Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-30T18:14:27.059Z [info]: Received request to fetch gists
+2024-05-30T18:14:27.060Z [info]: Checking for new gists
+2024-05-30T18:14:27.060Z [info]: Fetching gists from GitHub
+2024-05-30T18:14:27.396Z [info]: Successfully fetched gists from GitHub
+2024-05-30T18:14:28.043Z [info]: No new gists found
+2024-05-30T18:14:28.303Z [info]: Updated user 170756589 scanned status to TRUE
+2024-05-31T19:04:01.792Z [error]: Failed to connect to the database getaddrinfo ENOTFOUND db
+2024-05-31T19:04:01.794Z [error]: Failed to initialize the database getaddrinfo ENOTFOUND db
