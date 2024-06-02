@@ -16,7 +16,7 @@ This app has four API endpoints:
 - Used for periodic checks, this endpoint returns fresh gists and adds them to Pipedrive deals. If a client requests this endpoint multiple times, it will not add already-added gists to Pipedrive deals; it will just return them to avoid duplicates. A Google Cloud Scheduler job is set up for this endpoint, which makes a request every 3 hours to fetch new gists and add them to Pipedrive deals if they haven't been added already.
 
 2. The "GET: /new-gists" 
-- Returns fetched gists that have been added to Pipedrive deals. If a client requests this endpoint multiple times, they won't see already viewed gists.
+- Returns fetched gists that have been added to Pipedrive deals. If a client requests this endpoint multiple times, the client won't see gists that have already been returned in previous requests, ensuring that only new and unviewed gists are shown.
 
 3. The "GET: /scanned-users"
 - Returns scanned users. If some users have new gists, the /fetch-gists endpoint will still scan them and add the gists to Pipedrive deals.
