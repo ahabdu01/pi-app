@@ -19,12 +19,12 @@ jobs:
     - name: Login to Google Cloud
       uses: google-github-actions/auth@v1
       with:
-        credentials_json: ${{ secrets.GCP_SA_KEY }} # Add your service account key as a GitHub secret
+        credentials_json: ${{ secrets.GCP_SA_KEY }} # Add your service account key as a GitHub secret, same with next secrets
 
     - name: Set up Google Cloud SDK
       uses: google-github-actions/setup-gcloud@v1
       with:
-        project_id: ${{ secrets.GCP_PROJECT_ID }} # Add your project ID as a GitHub secret
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
         export_default_credentials: true
 
     - name: Configure Docker to use the gcloud command-line tool as a credential helper
