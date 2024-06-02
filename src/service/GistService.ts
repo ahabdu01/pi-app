@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Gist } from '../models/Gist';
+import { Gist } from '../model/Gist';
 import logger from '../utils/logger';
 import { createPipedriveDeal } from './PipedriveService';
 import { GITHUB_USERNAME, GITHUB_TOKEN } from '../config';

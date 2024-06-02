@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { Gist } from '../models/Gist';
-import { Deal } from '../models/Deal';
+import { Gist } from '../model/Gist';
+import { Deal } from '../model/Deal';
 import logger from '../utils/logger';
 import { PIPEDRIVE_API_TOKEN } from '../config';
 

@@ -4,10 +4,10 @@ import { initializeDatabase, pool } from './database';
 import logger from './utils/logger';
 import dotenv from 'dotenv';
 import { GistRepository } from './repository/GistRepository';
-import { GistService } from './services/GistService';
+import { GistService } from './service/GistService';
 import { GistController } from './controller/gistController';
 import { UserRepository } from './repository/UserRepository';
-import { UserService } from './services/UserService';
+import { UserService } from './service/UserService';
 import { UserController } from './controller/userController';
 
 dotenv.config();

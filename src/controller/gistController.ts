@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { GistService } from '../services/GistService';
+import { GistService } from '../service/GistService';
 import logger from '../utils/logger';
 
 export class GistController {
