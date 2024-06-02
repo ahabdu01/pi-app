@@ -1,22 +1,24 @@
-# Use the official Node.js 21 image.
+# Use the official Node.js 21 image
 FROM node:21
 
-# Create and change to the app directory.
+# Set the working directory
 WORKDIR /usr/src/app
 
-# Install app dependencies.
+# Copy package.json and package-lock.json (if available) and install dependencies
 COPY package*.json ./
 RUN npm install
 
-# Copy app files.
+# Copy the rest of the application files
 COPY . .
 
-EXPOSE 8080
+# Set environment variables
+ENV PORT=8080
 
-ENV PORT 8080
+# Expose the port the app runs on
+EXPOSE $PORT
 
-# Compile TypeScript to JavaScript using the build script.
+# Compile TypeScript to JavaScript
 RUN npm run build
 
-# Run the compiled app using the start script.
-CMD ["sh", "-c", "npm start"]
+# Start the application
+CMD ["npm", "start"]
