@@ -13,7 +13,7 @@ This app has four API endpoints:
 - POST: /add-user (on cloud: https://pi-app-n5btuly27q-ew.a.run.app/add-user)
 
 1. The "GET: /fetch-gists"
-- Used for periodic checks, this endpoint returns fresh gists and adds them to Pipedrive deals. If a client requests this endpoint multiple times, it will not add already-added gists to Pipedrive deals; it will just return them to avoid duplicates. A Google Cloud Scheduler job is set up for this endpoint, which makes a request every 3 hours to fetch new gists and add them to Pipedrive deals if they haven't been added already.
+- Used for periodic checks, this endpoint returns fresh gists and adds them to Pipedrive deals. If a client requests this endpoint multiple times, it will not add already-added gists to Pipedrive deals, it will just return them to avoid duplicates. A Google Cloud Scheduler job is set up for this endpoint, which makes a request every 3 hours to "/fetch-gists" endpoint.
 
 2. The "GET: /new-gists" 
 - Returns fetched gists that have been added to Pipedrive deals. If a client requests this endpoint multiple times, the client won't see gists that have already been returned in previous requests, ensuring that only new and unviewed gists are shown.
