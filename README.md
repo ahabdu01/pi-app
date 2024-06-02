@@ -86,7 +86,7 @@ This application uses the Winston library for logging. Winston is a versatile lo
 
 - Logs are output to the console, making it easy to monitor the application in real-time. This is particularly useful during development and debugging.
 
-- Logs are also saved to a file named app.log located in the root directory of the project. The log entries include a timestamp, the log level, and the log message. Here is an example of a log entry:
+- Logs are also saved to a file named app.log located in the root directory of the project. The log entries include a timestamp, the log level, and the log message.
 
 ### Tech stack
 - Node.js
