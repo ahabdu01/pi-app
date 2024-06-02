@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Gist } from '../model/Gist';
 import logger from '../utils/logger';
 import { createPipedriveDeal } from './PipedriveService';
-import { GITHUB_USERNAME, GITHUB_TOKEN } from '../config';
+import {GITHUB_TOKEN } from '../config';
 import { GistRepository } from '../repository/GistRepository';
 import { UserService } from './UserService';
 
