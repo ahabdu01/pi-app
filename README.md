@@ -81,6 +81,13 @@ gcloud scheduler jobs create http fetch-gists --schedule "0 */3 * * *" --http-me
 This project uses GitHub Actions to automate the deployment process. On every push to the main branch, GitHub Actions will build and deploy the application to Google Cloud Run. This ensures that any changes made to the code are automatically deployed, provided they pass the build and validation steps.
 You can find Github actions for this project here: https://github.com/ahabdu01/pi-app/actions/
 
+### Logging with Winston
+This application uses the Winston library for logging. Winston is a versatile logging library for Node.js that allows you to create logs at various levels (e.g., info, warn, error) and output them to different transports (e.g., console, files).
+
+- Logs are output to the console, making it easy to monitor the application in real-time. This is particularly useful during development and debugging.
+
+- Logs are also saved to a file named app.log located in the root directory of the project. The log entries include a timestamp, the log level, and the log message. Here is an example of a log entry:
+
 ### Tech stack
 - Node.js
 - PostgreSQL
