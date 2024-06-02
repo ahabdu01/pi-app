@@ -5,10 +5,10 @@ import logger from './utils/logger';
 import dotenv from 'dotenv';
 import { GistRepository } from './repository/GistRepository';
 import { GistService } from './service/GistService';
-import { GistController } from './controller/gistController';
 import { UserRepository } from './repository/UserRepository';
 import { UserService } from './service/UserService';
-import { UserController } from './controller/userController';
+import { GistController } from './controller/GistController';
+import { UserController } from './controller/UserController';
 
 dotenv.config();
 

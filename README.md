@@ -77,6 +77,10 @@ Command for creating a job:
 gcloud scheduler jobs create http fetch-gists --schedule "0 */3 * * *" --http-method GET --uri "https://pi-app-n5btuly27q-ew.a.run.app/fetch-gists" --time-zone "Etc/UTC" --project "pi-app-job" --location "us-central1"
 ```
 
+### Continuous Deployment with GitHub Actions
+This project uses GitHub Actions to automate the deployment process. On every push to the main branch, GitHub Actions will build and deploy the application to Google Cloud Run. This ensures that any changes made to the code are automatically deployed, provided they pass the build and validation steps.
+You can find Github actions for this project here: https://github.com/ahabdu01/pi-app/actions/
+
 ### Tech stack
 - Node.js
 - PostgreSQL
