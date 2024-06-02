@@ -68,7 +68,7 @@ gcloud run deploy pi-app --image gcr.io/pi-app-project/pi-app:latest --platform 
 ```
 Using --set-env-vars, you can set environment variables used in the project, ensuring that sensitive data is not exposed in GitHub.
 
-This application uses Google Cloud SQL for the PostgreSQL database.
+This application uses Google Cloud SQL for the PostgreSQL database, which was set up by the author.
 
 ### Google Cloud Scheduler job
 For periodic checks, Cloud Scheduler was used to send GET requests to the "/fetch-gists" endpoint, which adds gists to Pipedrive deals.
